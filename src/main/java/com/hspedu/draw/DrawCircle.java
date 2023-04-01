@@ -38,7 +38,7 @@ class MyPanel extends JPanel {
 //		g.fillRect(10, 10,100, 100);
 //		g.setColor(Color.red);
 //		g.fillOval(10, 10,50, 100);
-		URL path = MyPanel.class.getResource("/bg.png");
+		URL path = MyPanel.class.getResource("bg.png");
 		Image image = Toolkit.getDefaultToolkit().getImage(path);
 		g.drawImage(image, 10, 10, 175, 221, this);
 //		g.setColor(Color.red);
